@@ -12,12 +12,19 @@ int main() {
 
     // Loop through the first three elements of the array
     //using pointers to print all the elements in an array
+    // for (int i = 0; i < 3; i++)
+    // {
+    //     cout<<ptr<<endl; //outputs the memory location to the currenty elemnet pointed to by pointer
+    //     cout << *ptr << endl; // Outputs the current element pointed to by ptr
+    //     ptr++; // Increments the pointer to point to the next element in the array
+    // }
+
     for (int i = 0; i < 3; i++)
     {
-        cout<<ptr<<endl; //outputs the memory location to the currenty elemnet pointed to by pointer
-        cout << *ptr << endl; // Outputs the current element pointed to by ptr
-        ptr++; // Increments the pointer to point to the next element in the array
+        cout<< *(arr + i)<<endl;
     }
+    
+
 
     return 0;
 }
