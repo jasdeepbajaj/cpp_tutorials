@@ -67,7 +67,7 @@ int main() {
     }
 
     // Try to solve the maze starting from (0, 0)
-    if (ratinMaze(arr, 1, 1, n, solArr)) {
+    if (ratinMaze(arr, 0, 0, n, solArr)) {
         cout << "\nSolution path (marked as '1's): \n";
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
